@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
-* main - Print the word "Holberton"
+* main - Print the word "_putchar"
 *
 * Return: Always 0 (Success)
 */
@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 		{
-		putchar(p[i]);
+		_putchar(p[i]);
 		}
-		putchar('\n');
+		_putchar('\n');
 	return (0);
 }
