@@ -14,5 +14,6 @@ void times_table(void);
 void pr_digit(int charcode, int fmt);
 int add(int a, int b);
 void pr_with_fmt(int charcode, int fmt);
+void print_to_98(int n);
 
 #endif
