@@ -13,8 +13,8 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 		{
-		printf(p[i]);
+		_putchar(p[i]);
 		}
-		printf('\n');
+		_putchar('\n');
 	return (0);
 }
